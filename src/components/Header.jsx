@@ -2,6 +2,7 @@ import React from 'react'
 import MenuItem from './MenuItem'
 import {AiFillHome} from 'react-icons/ai'
 import {BsFillInfoCircleFill} from 'react-icons/bs'
+import DarkModeSwitch from './DarkModeSwitch'
 
 const Header = () => {
   return (
@@ -13,6 +14,9 @@ const Header = () => {
 
                 </div>
                 <div className='flex gap-1 items-center'>
+                          <DarkModeSwitch className="hover:text-amber-500"/>
+                          &nbsp;
+                          &nbsp;
                          <span className='text-2xl font-bold bg-amber-500 py-1 px-2 rounded-lg'><a href='/'>Movie  </a> </span>
                          <span className='text-xl hidden sm:inline'> <a href='/'>Base  </a></span>
 
