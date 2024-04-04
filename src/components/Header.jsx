@@ -12,6 +12,7 @@ const Header = () => {
                   <MenuItem title='About' path='/about' Icon={BsFillInfoCircleFill}/>
 
 
+
                 </div>
                 <div className='flex gap-1 items-center'>
                           <DarkModeSwitch className="hover:text-amber-500"/>
